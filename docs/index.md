@@ -281,7 +281,7 @@ Security vulnerabilities in smart contracts have led to over $250 million USD in
 
 ### [Joy of Cryptography](https://joyofcryptography.com/)
 
-<img src="/img/joyofcryptography.jpg" width="120px"/>
+<img src="https://raw.githubusercontent.com/wefuzz/crypto-books/gh-pages/img/joyofcryptography.jpg" width="120px"/>
 
 The Joy of Cryptography is a free undergraduate-level textbook that introduces students to the fundamentals of provable security.
 
