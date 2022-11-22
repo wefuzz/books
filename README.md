@@ -67,10 +67,13 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
+This repo uses github actions to deploy the Docusaurus project to Github pages.
+
 ## Contribution Guidelines
 Contributing is vital for keeping the Open Source ecosystem alive, and you learn a lot while doing so! At the same time, though, respect the authors. Please **DO NOT** add links to pirated content.
 
 ## Disclaimer
 
 **This training & content is for educational purpose only.**
+
 
