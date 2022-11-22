@@ -1,0 +1,200 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url('https://1.www.s81c.com/common/carbon/plex/fonts/IBM-Plex-Mono/fonts/split/woff2/IBMPlexMono-Regular-Pi.woff2');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "IBM Plex Sans", sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #14C8A4;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4
+}
+
+:root {
+  scroll-behavior: initial;
+}
+
+:root {
+  --color-wefuzz-green: #14C8A4;
+  --color-wefuzz-green-1: rgba(20, 200, 164, 0.5);
+  --color-wefuzz-green-2: rgba(20, 200, 164, 0.1);
+  --color-wefuzz-purple: #8367D8;
+  --color-wefuzz-blue: #5E6AD2;
+  --color-wefuzz-red: #C81438;
+  --color-offwhite: #F4F2F6;
+  --color-charcoal: #36454F;
+  --color-graphite-dark: #232323;
+  --color-graphite: #323232;
+  --color-grey: #777;
+  --color-black: #151515;
+  --color-text: rgba(255, 255, 255, .88);
+  --color-text-2: #aaadb3;
+  --color-bg: #151823;
+  --black-0: rgba(0, 0, 0, 0);
+  --black-50: rgba(0, 0, 0, .5);
+  --black-100: rgba(0, 0, 0, 1);
+  --white-0: rgba(256, 256, 256, 0);
+  --white-50: rgba(256, 256, 256, .25);
+  --white-100: rgba(256, 256, 256, 1);
+  --blue: #228DFF;
+
+  --green-gradient: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+  --purple-gradient: linear-gradient(225deg, #FF3CAC 0%, #784BA0 51%, #2B86C5 100%);
+  --purple-gradient-2: linear-gradient(180deg, rgba(255, 63, 133, 0), #FF3CAC 20%, #784BA0 50%, #2B86C5 80%, rgba(255, 63, 133, 0));
+  --purple-gradient-3: linear-gradient(90deg, rgba(255, 63, 133, 0), #FF3CAC 20%, #784BA0 50%, #2B86C5 100%);
+  --purple-gradient-4: linear-gradient(-90deg, rgba(255, 63, 133, 0), #FF3CAC 20%, #784BA0 50%, #2B86C5 100%);
+}
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #000;
+}
+
+body {
+  color: var(--color-text);
+  font-size: 1.24rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .5px
+}
+
+h1, h2, h3, H4 {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 13,110,253;
+  --bs-secondary-rgb: 108,117,125;
+  --bs-success-rgb: 25,135,84;
+  --bs-info-rgb: 13,202,240;
+  --bs-warning-rgb: 255,193,7;
+  --bs-danger-rgb: 220,53,69;
+  --bs-light-rgb: 248,249,250;
+  --bs-dark-rgb: 33,37,41;
+  --bs-white-rgb: 255,255,255;
+  --bs-black-rgb: 0,0,0;
+  --bs-body-color-rgb: 33,37,41;
+  --bs-body-bg-rgb: 255,255,255;
+  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+  --color-wefuzz-green: #14C8A4;
+  --color-wefuzz-green-1: rgba(20, 200, 164, 0.5);
+  --color-wefuzz-green-2: rgba(20, 200, 164, 0.1);
+  --color-wefuzz-purple: #8367D8;
+  --color-wefuzz-blue: #5E6AD2;
+  --color-wefuzz-red: #C81438;
+  --color-offwhite: #F4F2F6;
+  --color-charcoal: #36454F;
+  --color-graphite-dark: #232323;
+  --color-graphite: #323232;
+  --color-grey: #777;
+  --color-black: #151515;
+  --color-text: rgba(255,255,255,.88);
+  --color-text-2: #aaadb3;
+  --color-bg: #151823;
+  --black-0: rgba(0, 0, 0, 0);
+  --black-50: rgba(0, 0, 0, .5);
+  --black-100: rgba(0, 0, 0, 1);
+  --white-0: rgba(256, 256, 256, 0);
+  --white-50: rgba(256, 256, 256, .25);
+  --white-100: rgba(256, 256, 256, 1);
+  --blue: #228DFF;
+  --green-gradient: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+  --purple-gradient: linear-gradient(225deg, #FF3CAC 0%, #784BA0 51%, #2B86C5 100%);
+  --purple-gradient-2: linear-gradient(180deg,rgba(255,63,133,0),#FF3CAC 20%,#784BA0 50%,#2B86C5 80%,rgba(255,63,133,0));
+  --purple-gradient-3: linear-gradient(90deg,rgba(255,63,133,0),#FF3CAC 20%,#784BA0 50%,#2B86C5 100%);
+  --purple-gradient-4: linear-gradient(-90deg,rgba(255,63,133,0),#FF3CAC 20%,#784BA0 50%,#2B86C5 100%);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1.2;
+  text-align: center!important;
+  margin-bottom: 32px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 0 10px 32px rgba(20,200,164,0.5),
+  10px 0 80px rgba(161,233,218,0.50);
+  color: var(--color-wefuzz-green);
+  background-image: var(--green-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 997px) {
+  .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
+    max-width: 100% !important;
+  }
+}
