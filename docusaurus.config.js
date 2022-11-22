@@ -9,7 +9,7 @@ const config = {
   title: 'Blockchain Books - WeFuzz',
   tagline: 'List of awesome blockchain books',
   url: 'https://wefuzz.io/books',
-  baseUrl: '/',
+  baseUrl: '/crypto-books/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // favicon: 'img/hackfi.jpeg',
