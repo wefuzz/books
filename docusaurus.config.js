@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Blockchain Books - WeFuzz',
   tagline: 'List of awesome blockchain books',
-  url: 'https://wefuzz.io/books',
+  url: 'https://library.wefuzz.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
